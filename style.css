@@ -704,7 +704,7 @@ li.social-links a {
 }
 
 .slider-bg-three {
-    background-image: url("img/banner/Electrical-Working-Banner.jpg");
+    background-image: url("img/wa/image_196389.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -716,7 +716,7 @@ li.social-links a {
 }
 
 .home-one-slider-otem .slider-content-area {
-    height: 650px;
+    height: 450px;
     position: relative;
 }
 
@@ -3157,7 +3157,7 @@ select.mobile-device {
 	background: rgba(34, 34, 34, 0.4);
 }
 .banner-bg-3{
-	background: url(uploads/inner-bg_3.jpg);
+	background: url(img/wa/bannerr.webp);
 	padding: 120px 0;	
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
@@ -3181,7 +3181,7 @@ select.mobile-device {
 	background: rgba(34, 34, 34, 0.4);
 }
 .banner-bg-4{
-	background: url(uploads/inner-bg_4.jpg);
+	background: url(img/wa/wm-img.jpg);
 	padding: 120px 0;	
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);

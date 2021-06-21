@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>WASEEK AHMAD AIR CONDITIONING & MECHANICAL SERVICE EST</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="./logo/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./logo/logo.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <style type="text/css">
+			@font-face
+				{
+    				font-family: 'Montserrat-Regular';
+				    src: url('fonts/Montserrat-Regular.otf') format('opentype');
+				    font-weight: normal;
+				    font-style:normal;
+				}
+			@font-face
+				{
+    				font-family: 'Montserrat SemiBold';
+				    src: url('fonts/Montserrat%20SemiBold.html') format('opentype');
+				    font-weight: normal;
+				    font-style:normal;
+				}
+	body {
+	
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body>
+
+   
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="IndexMainpage.html"><img src="img/logo/WA.jpg" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="IndexMainpage.html">Home</a></li>
+                        <li><a href="AboutusMainpage.html">About us</a></li>
+						
+                        <li><a href="WhatwedoMainpage.html">What we do</a></li>
+                      
+                        <li><a href="GalleryMainpage.html">Gallery</a></li>
+						<li><a class="active" href="ContactMainpage.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+   	<div class="banner-area banner-bg-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="banner">
+						<h2>Contact Us</h2>
+						<ul class="page-title-link">
+							<li><a href="IndexMainpage.html">Home</a></li>
+							<li><a href="ContactMainpage.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="contact" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+                <a class="style">Get in touch</a>
+                
+            </div><!-- end title -->
+
+
+
+						
+			<div class="row">
+				<div class="col-md-offset-1 col-sm-10 col-md-10 col-sm-offset-1 pd-add">
+					<a class="language" lang="en">Send Message</a>
+					<h2 class="language" lang="ar"> ارسل رسالة</h2>
+					<!--COntact Form-->
+					<form id="submit-form" action="">
+				
+				
+				
+									<!--Form Group-->
+								   
+									<div id="DivErrorMsg" class="Form_ErrorMessge" style="display: none"></div>
+				
+											<div class="inner-box">
+													<div class="row clearfix">
+														<!--Form Group-->
+														<div class="col-lg-6 col-md-6 col-sm-6 comment-agile1" data-aos="flip-left">
+															<script type="text/javascript">var submitted=false;</script>
+															<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='#';}"></iframe>
+															<form id="submit-form" action="">
+																	<div class="control-group form-group">
+																		<div class="controls">
+																			<input type="text" class="form-control" id="name" name="FULL NAME" placeholder="Full Name" required="">
+																			<p class="help-block"></p>
+																		</div>
+																	</div>
+									<!--Form Group-->
+									<div class="control-group form-group">
+										<div class="controls">
+											<input type="email" class="form-control" id="email" name="EMAIL ADDRESS" placeholder="Email Address" required="">
+										</div>
+									</div>
+				
+									<div class="control-group form-group">
+										<div class="controls">
+											<input type="number" class="form-control" id="name1" name="PHONE NUMBER" placeholder="Phone Number" required="">
+											<p class="help-block"></p>
+										</div>
+									</div>
+									<!--Form Group-->
+									<div class="control-group form-group">
+										<div class="controls">
+											<textarea rows="10" cols="100" class="form-control" id="message" name="MESSAGE" placeholder="Message" required=""></textarea>
+										</div>
+									</div>
+				
+									<!--Form Group-->
+									<div class="form-group col-md-12 col-xs-12">
+										<div class="text-right">
+											<input type="submit" name="btnSubmit" value="Send" onclick="return validatePage();" id="btnSubmit" class="btn btn-light btn-radius btn-brd" />
+										</div>
+									</div>                                            
+									</div>
+								</div>
+						</div>
+						
+						<script>
+							$("#submit-form").submit((e)=>{
+							e.preventDefault()
+							$.ajax({
+							url:"https://script.google.com/macros/s/AKfycbwa_nFAJ0WKbSptFalJDXOkDg_Vw9Ze7cpKcsTrwkhd6y2WPDlZv-pB/exec",
+							data:$("#submit-form").serialize(),
+							method:"post",
+							success:function (response){
+							alert("Form submitted successfully")
+							window.location.reload()
+							//window.location.href="https://google.com"
+							},
+							error:function (err){
+							alert("Something Error")
+							
+							}
+							})
+							})
+							</script>
+						<!--COntact Form-->
+
+
+
+
+			<div class="row">
+				<div class="col-md-offset-1 col-sm-10 col-md-10 col-sm-offset-1 pd-add">
+					<div class="address-item">
+						<div class="address-icon">
+							<i class="icon icon-location2"></i>
+						</div>
+						<a class="style01">Office Address</a>
+						<p>Al Hilal Bank Buliding, Office Number 107, Al Qusais, 
+							Dubai, UAE
+							<br></p>
+					</div>
+					<div class="address-item">
+						<div class="address-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<a class="style01">Email Us</a>
+						<p><a href="MAILTO:waseek@wa.com" target="_blank">waseek@wa.com</a>
+							<br></p>
+					</div>
+					<div class="address-item">
+						<div class="address-icon">
+							<i class="icon icon-phone"></i>
+						</div>
+						<a class="style01">Call Us</a>
+						<p><a href="tel:+971564569346">+971 56 456 9346</a>
+							<br></p>
+					</div>
+					
+					<div class="address-item">
+						<div class="address-icon">
+							<i class="fa fa-whatsapp" aria-hidden="true"></i>
+						</div>
+						<a class="style01">Whatsapp</a>
+						<p><a href="https://api.whatsapp.com/send?phone=971564569346&text=*PLEASE%20SEND%20U%20R%20LOCATION%20AND%20DETAILS*%20THANKS." target="_blank">+971 56 456 9346
+							<br></p></a>
+					</div>
+
+				</div>
+			</div><!-- end row -->
+			
+        </div><!-- end container -->
+    </div><!-- end section -->
+	<table width="100%" border="0" vspace="0" align="center">
+		<tr>
+			<td>
+            	<iframe src="" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </td>
+		</tr>
+	</table>
+
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>    
+
+</body>
+</html>
